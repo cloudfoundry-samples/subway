@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 var Subway = require('./lib/subway');
 
 var subway = new Subway();
