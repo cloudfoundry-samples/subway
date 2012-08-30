@@ -8,7 +8,8 @@ html
 
     script
       var ENV = '#{env}',
-          PORT = #{port};
+          PORT = #{port},
+          HOST = '#{client_host}';
     != js('client')
     include templates
   body

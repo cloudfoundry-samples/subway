@@ -12,7 +12,7 @@
 
 
 window.irc = {
-  socket: io.connect("http://subway.cloudfoundry.com", {port: PORT, 'rememberTransport': true , 'transports': ['xhr-polling']}),
+  socket: io.connect(HOST, {port: PORT, 'rememberTransport': true , 'transports': ['xhr-polling']}),
   chatWindows: new WindowList(),
   connected: false
 };

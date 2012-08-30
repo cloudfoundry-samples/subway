@@ -44,8 +44,12 @@ Deployment
 
 ### CloudFoundry
 
+Select name for app and update manifest.yml with it then:
+
 ``` bash
-vmc push --runtime=node06
+vmc push --runtime=node06 --nostart
+vmc env-add subway NODE_ENV=production
+vmc start
 ```
 
 Development
