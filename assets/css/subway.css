@@ -318,15 +318,15 @@ html { overflow: hidden; }
 }
 
 .join_img{
-  background-image:url('/assets/images/join.png');
+  background-image:url('../images/join.png');
 }
 
 .part_img{
-  background-image:url('/assets/images/part.png');
+  background-image:url('../images/part.png');
 }
 
 .topic_img{
-  background-image:url('/assets/images/topic.png');
+  background-image:url('../images/topic.png');
 }
 
 .chat-name {
@@ -423,11 +423,11 @@ html { overflow: hidden; }
 }
 
 .userlist_user_active{
-  background-image: url('/assets/images/active.png');
+  background-image: url('../images/active.png');
 }
 
 .userlist_user_idle{
-  background-image: url('/assets/images/idle.png');
+  background-image: url('../images/idle.png');
 }
 
 .userlist_user_info{
